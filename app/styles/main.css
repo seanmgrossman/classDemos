@@ -1,0 +1,57 @@
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  width: 400px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+}
+
+.hero-unit h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/*funnel posisioning*/
+#funnel { padding-left: 100px; padding-top: 100px; }
+
+
+
+/*fullpage.js styling*/
+#fullpage { position: fixed; overflow: automatic; }
+/*makes sure sidebar is clickable*/
+#sidenav-overlay {z-index: 90}
+/*keeps navbar with page*/
+#nav { position: fixed;
+top: 0;
+left: 0;
+display: block;
+z-index: 99;
+}
+/*stylesheets for sections*/
+#sa, #sc, #se { background: #ffebee; }
+#sb, #sd { background: #ffcdd2; }
+
+/*Line graph*/
+.line {
+  fill: none;
+  stroke: purple;
+  stroke-width: 2px;
+}
